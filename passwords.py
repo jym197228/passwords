@@ -1,8 +1,8 @@
 # 密碼重試
 # 正確密碼為a123456
-x = 3 # 剩餘次數
+x = 5 # 剩餘次數
 pwd = 'a123456' #正確密碼
-while x < 3:
+while x > 0:
 	password = input('請輸入密碼: ')
 	if password == pwd:
 		print('登入成功!')
